@@ -1,0 +1,27 @@
+* {
+    background-color: white
+}
+section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    height: 100px;
+    width: 400px;
+}
+
+.grid1 {
+    grid-column: span 3;
+
+}
+
+.grid2 {
+    grid-column: span 3;
+}
+
+.grid3 {
+    grid-column: span 3;
+}
+
+.grid4 {
+    grid-column: span 3;
+}
