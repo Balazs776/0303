@@ -1,27 +1,68 @@
 * {
-    background-color: white
+    background-color: white;
 }
-section {
+
+.text {
+    text-align: center;
+}
+
+div :not(.img1, .img2, .img3, .img4) {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 10px;
+    gap: 10px;
     height: 100px;
-    width: 400px;
+    width: 80%;
+    margin: 0 10% 0;
 }
 
 .grid1 {
     grid-column: span 3;
-
+    border: 2px solid lightgrey;
 }
 
 .grid2 {
     grid-column: span 3;
+    border: 2px solid lightgrey;
 }
 
 .grid3 {
     grid-column: span 3;
+    border: 2px solid lightgrey;
 }
 
 .grid4 {
     grid-column: span 3;
+    border: 2px solid lightgray;
+}
+
+.img1 {
+    grid-column: 3 / 3;
+    grid-row: 0 / 0;
+    height: 10%;
+    width: 15%;
+    z-index: 2;
+}
+
+.img2 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    height: 5%;
+    width: 15%;
+    z-index: 2;
+}
+
+.img3 {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    height: 10%;
+    width: 15%;
+    z-index: 2;
+}
+
+.img4 {
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    height: 10%;
+    width: 15%;
+    z-index: 2;
 }
